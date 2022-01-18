@@ -1,0 +1,8 @@
+.container{
+    margin: 0;
+    background-image: url(../Images/backgroundImageLamps.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 200vh;
+}
