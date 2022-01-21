@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './Header';
 // import Nav from './Nav';
-import Content from './Content';
+import Tax from './Tax';
+import How from './How';
 
 import './Container.css'
 
@@ -9,8 +10,9 @@ const Container = () => {
     return (
       <>
         <main className="container">
-          <Header />
-          <Content />         
+          <Header />            
+          <Tax />  
+          <How />       
         </main>
       </>
     );

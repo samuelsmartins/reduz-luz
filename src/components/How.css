@@ -1,0 +1,64 @@
+.howContainer{
+        max-width: 1000px;
+        min-width: 300px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;    
+        box-shadow: 0px 5px 15px white;
+    }
+    
+    h3, h4, p {
+        padding: 0 20px;
+        text-align: justify;
+    }
+
+picture{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.ciclo{
+    flex: 1;
+    max-width: 400px;
+    min-width: 300px;
+    height: 294px;
+    background-image: url(../Images/ciclometrico.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    margin: 5px;
+}
+
+.digital{
+    flex: 1; 
+    max-width: 400px;
+    min-width: 300px;
+    height: 294px;
+    background-image: url(../Images/digitalMedidor.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    margin: 5px;
+}
+
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dadosMedicao{
+    background-image: url(../Images/dadosMedicao.JPG);
+    width: 260px;   
+    height: 294px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    margin: 5px;
+}

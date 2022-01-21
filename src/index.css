@@ -5,9 +5,11 @@ body {
   max-width: 1000px;
   min-width: 350px;
   margin: auto;
-  height: 200vh;
-  background: -webkit-linear-gradient(to bottom, #403b4a, #e7e9bb);
-  background: linear-gradient(to bottom, #403b4a, #e7e9bb);
+  /* height: 200vh; */
+  /* background: -webkit-linear-gradient(to bottom, #403b4a, #e7e9bb);
+  background: linear-gradient(to bottom, #403b4a, #e7e9bb); */
+  background-image: url(./Images/backgroundImageLamps.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }

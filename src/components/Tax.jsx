@@ -1,10 +1,10 @@
 import React from 'react';
 import Table from './Table';
-import './Content.css'
+import './Tax.css'
 
-const Content = () => {
+const Tax = () => {
     return (
-      <section className="contentContainer">
+      <section className="taxContainer">
         <article>
             <h3>
               Conheça algumas cobranças que ocorrem em sua conta de luz e como economizar.
@@ -20,8 +20,12 @@ const Content = () => {
         <article>
           <Table />
         </article>
+        <article>
+          <p>Como podemos observar na tabela acima, a cada faixa de consumo é aplicada sua respectiva porcentagem do ICMS, que será calculado de acordo com o total do consumo no dia da leitura do relógio de energia.</p>
+          <p>Sendo assim, caso o consumo fique abaixo de 90 kWh não ocorrerá a cobrança do imposto, se o consumo ficar entre 91 a 200 kWh, incidirá 12% de ICMS, acima de 200 kWh ocorrerá a maior taxa, de 25%.</p>          
+        </article>
       </section>
     );
 }
  
-export default Content;
+export default Tax;
