@@ -3,6 +3,7 @@ import Header from './Header';
 // import Nav from './Nav';
 import Tax from './Tax';
 import How from './How';
+import Calculator from './Calculator';
 
 import './Container.css'
 
@@ -12,7 +13,8 @@ const Container = () => {
         <main className="container">
           <Header />            
           <Tax />  
-          <How />       
+          <How />   
+          <Calculator />    
         </main>
       </>
     );
