@@ -7,7 +7,7 @@ body {
   max-width: 1000px;
   min-width: 350px;
   margin: auto;
-  background-image: url(./Images/backgroundImageLamps.jpg);
+  background-image: url(./images/backgroundImageLamps.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

@@ -13,3 +13,17 @@ h3, h4, p {
     padding: 0 20px;
     text-align: justify;
 }
+
+.leituras{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoDate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+

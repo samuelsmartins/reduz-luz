@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './Header';
-// import Nav from './Nav';
-import Tax from './Tax';
-import How from './How';
-import Calculator from './Calculator';
+import Header from '../components/Header';
+// import Nav from '../components/Nav';
+import Tax from '../components/Tax';
+import How from '../components/How';
+import Calculator from '../calculator/Calculator';
 
 import './Container.css'
 

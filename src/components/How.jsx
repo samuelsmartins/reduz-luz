@@ -2,9 +2,9 @@ import React from 'react';
 
 import './How.css'
 
-import Ciclo from './Images/ciclometrico.JPG'
-import Digital from './Images/digitalMedidor.JPG'
-import Medicao from './Images/dadosMedicao.JPG'
+import Ciclo from '../images/ciclometrico.JPG'
+import Digital from '../images/digitalMedidor.JPG'
+import Medicao from '../images/dadosMedicao.JPG'
 
 const How = () => {
     return ( 
